@@ -1,0 +1,10 @@
+const modal = document.getElementById('modal')
+const modalCloseBtn = document.getElementById('modal-close-btn')
+
+modalCloseBtn.addEventListener('click', () => {
+    modal.style.display = "none"
+})
+
+setTimeout(function(){
+    modal.style.display = "inline"
+}, 1500)
